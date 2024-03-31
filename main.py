@@ -1,4 +1,5 @@
 from greeter import Greeter
+from planet import Planet
 
 
 def start_program():
@@ -8,6 +9,9 @@ def start_program():
     # Use the inner function through a public method
     print(greeter.greet())  # Friendly greeting
     print(greeter.greet("formal"))  # Formal greeting
+
+    planet = Planet()
+    planet.handle()
 
 
 # Press the green button in the gutter to run the script.
