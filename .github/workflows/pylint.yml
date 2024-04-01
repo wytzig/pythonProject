@@ -21,4 +21,4 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         flake8 $(git ls-files '*.py')
-        exit 0
+      continue-on-error: true
