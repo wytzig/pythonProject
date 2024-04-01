@@ -21,8 +21,8 @@ def get_planet_input():
         choice = input(prompt).upper()
         if choice in options:
             return options[choice]
-        else:
-            print("Invalid option, please choose from the list.")
+
+        print("Invalid option, please choose from the list.")
 
 
 class Planet:

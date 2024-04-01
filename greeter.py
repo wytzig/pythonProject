@@ -7,8 +7,8 @@ class Greeter:
             return self._friendly_greet()
         elif style == "formal":
             return self._formal_greet()
-        else:
-            return "Hello!"
+
+        return "Hello!"
 
     def _friendly_greet(self):
         return f"Hey there, {self.name}!"
