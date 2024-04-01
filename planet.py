@@ -1,6 +1,5 @@
 # planet.py
 from enum import Enum, auto
-import sys
 
 
 class SolarBodies(Enum):
