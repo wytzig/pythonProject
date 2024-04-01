@@ -1,8 +1,13 @@
+"""
+main py file to start and run the program
+"""
+
 from greeter import Greeter
 from planet import Planet
 
 
 def start_program():
+    """ run the program """
     # Create a Greeter object
     greeter = Greeter(input("What is your name?: "))
 
